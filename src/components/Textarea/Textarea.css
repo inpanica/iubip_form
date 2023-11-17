@@ -1,0 +1,16 @@
+.textarea{
+    resize: none;
+    min-height: 300px;
+}
+
+@media screen and (max-width: 650px){
+    .textarea{
+        min-height: 200px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .textarea{
+        min-height: 150px;
+    }
+}
